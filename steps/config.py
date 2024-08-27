@@ -5,3 +5,4 @@ class ModelNameConfig(BaseParameters):
     """Model Configurations"""
 
     model_name: str = "LinearRegression"
+ 

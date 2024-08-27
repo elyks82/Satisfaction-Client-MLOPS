@@ -10,4 +10,4 @@ def evaluate_model(df:pd.DataFrame) -> None:
     Args:
         df : the ingested df 
     """
-    pass
+    pass 

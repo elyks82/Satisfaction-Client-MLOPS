@@ -17,7 +17,7 @@ class Model(ABC):
             y_train: Target data
         """
         pass
-
+ 
 
 
 class LinearRegressionModel(Model):

@@ -13,7 +13,7 @@ def train_model(
     y_test: pd.Series,
     config: ModelNameConfig,
 ) -> RegressorMixin:
-    """
+    """ 
     Args:
         x_train: pd.DataFrame
         x_test: pd.DataFrame
