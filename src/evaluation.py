@@ -12,7 +12,7 @@ class Evaluation(ABC):
     @abstractmethod
     def calculate_score(self, y_true: np.ndarray, y_pred: np.ndarray) -> float:
         pass
- 
+
 
 class MSE(Evaluation):
     """

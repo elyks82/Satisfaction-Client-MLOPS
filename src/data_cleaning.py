@@ -12,7 +12,7 @@ class DataStrategy(ABC):
     @abstractmethod
     def handle_data(self, data: pd.DataFrame) -> Union[pd.DataFrame, pd.Series]:
         pass
- 
+
 
 class DataPreprocessStrategy(DataStrategy):
     """
